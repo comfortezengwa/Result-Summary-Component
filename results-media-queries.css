@@ -1,0 +1,174 @@
+
+/* screens max-width 880px */
+
+@media (max-width: 880px) {
+    #Box {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+
+    .MiniBox {
+        border-radius: 8px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: 0%;
+        height: 440px;
+    }
+
+
+    .MiniBoxItems {
+        margin-bottom: 30px;
+    }
+    
+
+    #result {
+        opacity: 0.8;
+    }
+
+
+    .MiniBoxItems button {
+        margin-top: 40px;
+    } 
+
+    .MiniBoxItems button p {
+        opacity: 0.6;
+    }
+    
+    .MiniBoxItems h3 {
+        margin-top: 40px;
+        font-size: medium;
+    }
+    
+    .MiniBoxItems p {
+        margin-top: 12px;
+        max-width: 200px;
+        line-height: 1.2;
+    }
+
+    #SummaryBox {
+        height: 510px;
+        border-radius: 8px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border: none;
+        
+    }
+
+    #SummaryBoxItems h3 {
+        margin-top: 30px;
+    }
+
+    #SummaryBoxItems button {
+        gap: 100px;
+    }
+
+    #Nav {
+        margin-bottom: 60px;
+     }
+}
+
+
+/* screens max-width 480px */
+@media (max-width: 480px) {
+    #Box {
+        width: 280px;
+        height: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px rgb(168, 192, 216, 1);
+    }
+
+    .MiniBox {
+        width: 280px;
+        height: 300px;
+        border-radius: 8px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #result {
+        opacity: 0.8;
+        font-size: smaller;
+        margin-top: 2px;
+    }
+
+    .MiniBoxItems button {
+        border-radius: 50%;
+        padding: 25px 35px;
+        margin-top: 35px;
+    } 
+
+    .MiniBoxItems button p {
+        font-size: smaller;
+        font-weight: bolder;
+    }
+
+    .MiniBoxItems h3 {
+        margin-top: 18px;
+    }
+
+    .MiniBoxItems p {
+        margin-top: 20px;
+        max-width: 150px;
+        line-height: 1.2;
+        font-size: x-small;
+        font-weight: bold;
+    }
+
+    #SummaryBox {
+        width: 280px;
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    #SummaryBoxItems h3 {
+        margin-left: 24px;
+        margin-top: 24px;
+        font-weight: small;
+        font-size: medium;
+    }
+
+    #SummaryBoxItems button {
+        margin-left: 24px;
+        margin-top: 8px;
+        padding: 8px 4px;
+        width: 232px;
+        border-radius: 4px;
+        gap: 80px;
+        font-size: x-small;
+    }
+
+    
+    #SpanR, #Spanr {
+        gap: 2px;
+    }
+
+    #SpanM, #Spanm {
+        gap: 2px;
+    }
+
+    #spanVe, #spanve {
+        gap: 2px;
+    }
+
+    #SpanVi, #Spanvi {
+        gap: 2px;
+    }
+
+    #Nav {
+        margin-top: 30px;
+        font-size: x-small;
+     }
+
+     
+ #Nav  a {
+    padding: 12px 90px;
+    border-radius: 14px;
+    margin-left: 38px;
+}
+
+}

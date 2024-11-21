@@ -1,0 +1,226 @@
+/* reset browser preset settings */
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/*-- Box --*/
+
+#Box {
+    background-color: white;
+    width: 800px;
+    height: 550px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 10px rgb(168, 192, 216);
+}
+
+.MiniBox {
+    background-image: linear-gradient(#6940FF, #352AF3);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 0%;
+    color: white;
+    float: left;
+}
+
+.MiniBoxItems {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+#result {
+opacity: 0.6;
+}
+
+
+.MiniBoxItems button {
+    border-radius: 50%;
+    padding: 65px 80px;
+    margin-top: 60px;
+    align-content: center;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#4B23C7, #4732EC);
+} 
+
+.MiniBoxItems button h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.MiniBoxItems button p {
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.MiniBoxItems h3 {
+    margin-top: 30px;
+    opacity: inherit;
+    margin-top: 50px;
+}
+
+.MiniBoxItems p {
+    margin-top: 25px;
+    text-align: center;
+    opacity: 0.6;
+    max-width: 200px;
+    line-height: 1.5;
+}
+
+#SummaryBox {
+    background-color:white;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    float: right;
+    border-top-left-radius: 0px none;
+    border-bottom-left-radius: 0px none;
+    
+}
+
+#SummaryBoxItems {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#SummaryBoxItems h3 {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#SummaryBoxItems button {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 18px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 330px;
+    border-radius: 8px;
+    border: none;
+}
+
+#Reaction {
+    background-color: hsl(0, 75%, 95%);
+}
+
+#r100 {
+    opacity: 0.4;
+}
+
+
+#SpanR {
+    display: flex;
+    color: hsl(0, 100%, 67%);
+    gap: 10px;
+}
+
+#Spanr {
+    display: flex;
+    gap: 10px;
+}
+
+#m100 {
+    opacity: 0.4;
+}
+
+#Memory {
+    background-color: hsl(37, 64%, 91%);
+}
+
+#SpanM {
+    display: flex;
+    color: hsl(39, 100%, 56%);
+    gap: 10px;
+}
+
+#Spanm {
+    display: flex;
+    gap: 10px;
+}
+
+
+#v100 {
+    opacity: 0.4;
+}
+
+
+#Verbal {
+    background-color: hsl(169, 43%, 90%);
+}
+
+#spanVe {
+    display: flex;
+    color: hsl(166, 100%, 37%);
+    gap: 10px;
+}
+
+#spanve {
+    display: flex;
+    gap: 10px;
+}
+
+
+#vi100 {
+    opacity: 0.4;
+}
+
+
+#Visual {
+    background-color: hsl(237, 37%, 91%)
+    
+}
+
+#SpanVi {
+    display: flex;
+    color: hsl(234, 85%, 45%);
+    gap: 10px;
+}
+
+#Spanvi {
+    display: flex;
+    gap: 10px;
+}
+
+ #Nav {
+    margin-top: 55px;
+ }
+
+ #Nav  a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(3, 3, 97);
+    color: white;
+    padding: 15px 120px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+#Nav :visited {
+    background-color: red;
+}
+
+#Nav :hover {
+    background-color: blue;
+}
+
